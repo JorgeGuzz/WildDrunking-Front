@@ -1,0 +1,163 @@
+/*
+----------------------------------------------- SALA DE ESPERA -----------------------------------------------
+*/
+.SalaDeEspera {
+    margin: 15px 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.SalaDeEspera h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.SalaDeEspera p {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.SalaDeEspera label {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.SalaDeEspera table {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.SalaDeEspera .games-to-join-table {
+    border-collapse: collapse;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.SalaDeEspera .games-to-join-table td, .games-to-join-table th {
+    border: 1px solid rgb(229,248,223);
+    padding: 8px;
+    text-align: center;
+  }
+.SalaDeEspera .games-to-join-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(77, 201, 40);
+}
+.SalaDeEspera .games-to-join-table tr {
+    background-color: rgb(189,238,172);
+    font-size: 16px;
+}
+.SalaDeEspera .games-to-join-table tr:hover {
+    background-color: rgb(178, 224, 163);
+}
+
+.SalaDeEspera .new-game-button {
+    padding: 5px;
+    width: 100%;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-self: center;
+    background-color: rgb(77, 201, 40);
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+.SalaDeEspera .new-game-button:hover {
+    width: 106%;
+}
+
+.SalaDeEspera .join-private-button {
+    margin-left: 10px;
+    background-color: rgb(229,248,223);
+    cursor: pointer;
+}
+.SalaDeEspera .join-private-button:hover {
+    width: 103%;
+}
+
+.SalaDeEspera .join-public-button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(229,248,223);
+    width: 20%;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    justify-self: center;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+.SalaDeEspera .join-public-button:hover {
+    width: 21%;
+}
+.SalaDeEspera .join-public-button:disabled:hover {
+    width: 20%;
+    cursor: default;
+}
+
+.SalaDeEspera .game-code-field {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    padding: 5px;
+}
+
+.SalaDeEspera .game-name-field {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    padding: 5px;
+    margin-right: 6px;
+}
+
+.SalaDeEspera .game-buttons {
+    background-color: rgb(189,238,172);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.SalaDeEspera .games-to-join {
+    margin: 20px 0px;
+    background-color: rgb(189,238,172);
+}
+
+.SalaDeEspera .wr-box {
+    margin: 30px;
+    padding: 10px 25px 40px 25px;
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(229,248,223);
+    text-align: center;
+}
+/*
+----------------------------------------------- SALA DE ESPERA -----------------------------------------------
+*/

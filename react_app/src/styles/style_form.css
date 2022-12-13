@@ -1,0 +1,107 @@
+.Form  {
+    margin: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.Form h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Form label {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Form img {
+    width: 100%;
+    opacity: 60%;
+}
+
+.Form a {
+    justify-self: center;
+}
+
+.Form .login-input-text {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.Form .login-button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px 0px;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 140px;
+    justify-self: center;
+    background-color: rgb(77, 201, 40);
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+.Form .login-button:hover {
+    width: 150px;
+}
+
+.Form .alt-button {
+    background-color: rgb(189,238,172);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Form .av-button {
+    position: absolute;
+    opacity: 0;
+}
+.Form .av-button + img {
+    cursor: pointer;
+}
+.Form .av-button:checked + img {
+    opacity: 100%;
+}
+.Form .av-button:hover + img {
+    opacity: 100%;
+}
+
+.Form .login-box {
+    background-color: rgb(229,248,223);
+    padding: 30px;
+    width: 400px;
+    min-height: 400px;
+    border-width: 2px;
+    border-color: rgb(58, 144, 29);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.Form .login-form {
+    text-align: justify;
+    display: grid;
+    grid-template-rows: max-content max-content max-content max-content max-content max-content max-content;
+}
+
+.Form .avatar-option{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}

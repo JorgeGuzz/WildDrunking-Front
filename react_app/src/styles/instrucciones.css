@@ -1,0 +1,43 @@
+.Instrucciones {
+    text-align: center;
+    height: 2000px;
+    width: 2000px;
+}
+
+.Instrucciones h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Instrucciones .abg-box {
+    margin: 1% 25%;
+    padding: 10px 25px 40px 25px;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(229,248,223);
+    text-align: center;
+}
+
+.Instrucciones .title {
+    padding: 10px 25px;
+}
+
+.Instrucciones .image_box {
+    height: 1600px;
+    width: 1950px;
+    margin: 0px 25px;
+    position: relative;
+}
+
+.Instrucciones .image_box img { 
+    background-color: blue;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;  
+    object-fit: scale-down;
+}

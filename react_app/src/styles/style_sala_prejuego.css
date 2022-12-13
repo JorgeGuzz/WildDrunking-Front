@@ -1,0 +1,118 @@
+.SalaPreJuego {
+    margin: 15px 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.SalaPreJuego h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.SalaPreJuego p {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.SalaPreJuego table {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.SalaPreJuego select {
+    padding: 5px;
+    width: 50%;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-self: center;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+
+.SalaPreJuego .main-div {
+    margin: 30px;
+    padding: 10px 25px 40px 25px;
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(229,248,223);
+    text-align: center;
+}
+
+.SalaPreJuego .game-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(189,238,172);
+    align-items: center;
+}
+
+.SalaPreJuego .players-box {
+    margin-top: 15px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(189,238,172);
+    align-items: center;
+}
+
+.SalaPreJuego .player-info-table {
+    border-collapse: collapse;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.SalaPreJuego .player-info-table td, .player-info-table th {
+    border: 1px solid rgb(229,248,223);
+    padding: 8px;
+    text-align: center;
+  }
+.SalaPreJuego .player-info-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(77, 201, 40);
+}
+.SalaPreJuego .player-info-table tr {
+    background-color: rgb(189,238,172);
+    font-size: 16px;
+}
+
+.SalaPreJuego .start-button {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-self: center;
+    background-color: rgb(77, 201, 40);
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+.header{
+    width: 100% !important;
+    height: 85px !important;
+}
+.footer{
+    width: 100% !important;
+    height: 85px !important;
+    bottom: 0%;
+    position: absolute;
+}

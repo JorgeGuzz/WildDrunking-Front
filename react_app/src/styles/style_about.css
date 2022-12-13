@@ -1,0 +1,58 @@
+/*
+----------------------------------------------- ABOUT GAME -----------------------------------------------
+*/
+.AboutGame {
+    margin: 15px 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-image: none;
+    background-color: transparent;
+    min-height: 80vh;
+}
+
+.AboutGame h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.AboutGame p {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.AboutGame .abg-box {
+    margin: 30px 30px 0px 30px;
+    padding: 10px 25px 40px 25px;
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(229,248,223);
+    text-align: center;
+}
+
+.AboutGame .title {
+    padding: 10px 25px;
+}
+
+.AboutGame .info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px 30px 0px 30px;
+    width: 100%;
+    background-color: rgb(229,248,223);
+}
+/*
+----------------------------------------------- ABOUT GAME -----------------------------------------------
+*/

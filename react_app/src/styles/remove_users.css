@@ -1,0 +1,95 @@
+.Remove_Users {
+    margin: 15px 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-image: none;
+    background-color: transparent;
+    min-height: 80vh;
+}
+
+.Remove_Users h1 {
+    font-family: "Press Start 2P", Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Remove_Users label {
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.Remove_Users table {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Remove_Users .player-info-table {
+    border-collapse: collapse;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.Remove_Users .player-info-table td, .player-info-table th {
+    border: 1px solid rgb(229,248,223);
+    padding: 8px;
+    text-align: center;
+  }
+.Remove_Users .player-info-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(77, 201, 40);
+}
+.Remove_Users .player-info-table tr {
+    background-color: rgb(189,238,172);
+    font-size: 16px;
+}
+.Remove_Users .player-info-table tr:hover {
+    background-color: rgb(178, 224, 163);
+}
+
+
+.Remove_Users .player-info {
+    margin: 20px 0px;
+    background-color: rgb(189,238,172);
+}
+
+.Remove_Users .p-box {
+    margin: 30px;
+    padding: 10px 25px 40px 25px;
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(229,248,223);
+    text-align: center;
+}
+.Remove_Users .join-public-button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(229,248,223);
+    width: 40%;
+    font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    justify-self: center;
+    border-radius: 5px;
+    border-color: rgb(58, 144, 29);
+    border-style: groove;
+    cursor: pointer;
+}
+
+.Remove_Users .join-public-button:hover {
+    background-color: #DB3F2B;
+    color: whitesmoke;
+
+}

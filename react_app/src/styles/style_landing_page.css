@@ -1,0 +1,63 @@
+/*
+----------------------------------------------- LANDING PAGE -----------------------------------------------
+*/
+
+
+.LandingPage .titulo{
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    background-color: RGB(191,239,175);
+    max-width: 120%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    }
+  
+  .LandingPage img{
+    max-width: 70%;
+    max-height: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%; 
+    }
+    
+  .LandingPage .subtitulo{
+  font-size: 150%;
+  font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+  background-color: RGB(191,239,175);
+  text-align: center;
+  padding: 1%;
+  }
+  
+  .LandingPage .subtitulo2{
+      font-size: 130%; 
+      background-color: RGB(191,239,175);
+      text-align: center;
+      font-family: "Press Start 2P";
+      padding: 1%;
+  }
+  
+  .LandingPage .subtitulo3{
+  font-size: 100%;
+  font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif; 
+  background-color: RGB(191,239,175);
+  text-align: center;
+  padding: 1%;
+  }
+  .LandingPage .todo{
+      border: solid;
+      background-color: RGB(191,239,175);
+  }
+  .LandingPage .Personajes{
+      display: flex;
+      margin: 0%;
+      height: 10%;
+      width: 9%;
+  }
+  .LandingPage .cuerpo{
+      margin: 5%;
+  }
+  /*
+  ----------------------------------------------- LANDING PAGE -----------------------------------------------
+  */

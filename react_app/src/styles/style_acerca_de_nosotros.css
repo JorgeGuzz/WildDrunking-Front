@@ -1,0 +1,60 @@
+/*
+----------------------------------------------- ACERCA DE NOSOTROS -----------------------------------------------
+*/
+
+.AcercaDeNosotros .titulo{
+  font-size: 50px;
+  font-family: "Press Start 2P";
+  background-color: RGB(191,239,175);
+  max-width: 120%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  padding: 1%;
+  }
+
+.AcercaDeNosotros .textogeneral{
+font-size: 120%;
+font-family: "Franklin Gothic Medium"; 
+text-align: justify;
+background-color: rgb(189,238,172);
+margin:5%;
+padding: 1%;
+text-align: justify;
+border:solid;
+font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.AcercaDeNosotros .Nosotros{
+  float: left;
+  display: flex;
+}
+
+.AcercaDeNosotros .descripcion{
+  font-size: 120%;
+  align-items: center;
+  background-color: RGB(191,239,175);
+  overflow-y: scroll;
+  max-height: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  text-align: justify;
+  border:solid;
+  font-family: "Dosis", 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.AcercaDeNosotros .img{
+  width: 50%;
+  height: 35%;
+  margin: auto;
+  display: block;
+  }
+
+.AcercaDeNosotros .seccion{
+  width: 33%;
+}
+
+/*
+----------------------------------------------- ACERCA DE NOSOTROS -----------------------------------------------
+*/
